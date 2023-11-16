@@ -1,18 +1,9 @@
-let menuVisible = false;
-//Función que oculta o muestra el menu
-function mostrarOcultarMenu(){
-    if(menuVisible){
-        document.getElementById("nav").classList ="";
-        menuVisible = false;
-    }else{
-        document.getElementById("nav").classList ="responsive";
-        menuVisible = true;
-    }
-}
+const topButton = document.getElementById("topButton")
 
-function seleccionar(){
-    //oculto el menu una vez que selecciono una opcion
-    document.getElementById("nav").classList = "";
-    menuVisible = false;
-}
-// document.getElementById("nav").addEventListener("click",seleccionar)
+topButton.addEventListener("click", () => {
+   
+    window.scrollTo(0, 0);
+});
+
+
+

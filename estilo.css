@@ -342,6 +342,7 @@ html{
     background-color: #f1ece7;
     color: #232323;
     font-size: 18px;
+    resize: none;
 }
 .contacto button{
     cursor: pointer;
@@ -413,6 +414,11 @@ footer .arriba{
     border-radius: 50%;
     line-height: 50px;
     font-size: 18px;
+}
+footer .arriba:hover{
+    background-color: #1cb6b6;
+    cursor: pointer;
+    
 }
 /* SECCION RESPONSIVE */
 @media screen and (max-width:980px){
